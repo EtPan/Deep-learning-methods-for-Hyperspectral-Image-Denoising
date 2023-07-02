@@ -1,8 +1,8 @@
-# Deep-learning-methods-for-Hyperspectral-Image-Restoration
+# Awesome Deep learning methods for Hyperspectral Image Restoration
 
 This is an ongoing update of a literature library, with my (feeble) efforts.
 
-Welcome any scholars or students who are interested in this topic to participate in updating it or just having a casual chat!
+**Notice**: Welcome any scholars or students who are interested in this topic to participate in updating it or just having a casual chat!
 
 ## Acknowledgement
 It is forked from [FF-Wong](https://github.com/FF-Wong/Deep-learning-methods-for-Hyperspectral-Image-Denoising), and original compiled by [Yongsen Zhao]( https://github.com/seniusen) and [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun) in [Hyperspectral-Image-Denoising-Benchmark](https://github.com/junjun-jiang/Hyperspectral-Image-Denoising-Benchmark).
@@ -10,24 +10,25 @@ It is forked from [FF-Wong](https://github.com/FF-Wong/Deep-learning-methods-for
 Tender my sincere appreciate to them for their significant contributions.
 
 ## Update Log
-- 2023.06.24 Revised the layout, rearrange and updated some recent literature within the scope of personal knowledge (mainly in 2022 and 2023).
+- 2023.07.02 Revised the layout, updated some code sources, and added GF5 dataset. 
+- 2023.06.24 Revised the layout, rearranged and updated some recent literature within the scope of personal knowledge (mainly in 2022 and 2023).
 - 2023.06.17 Forked from  [FF-Wong](https://github.com/FF-Wong/Deep-learning-methods-for-Hyperspectral-Image-Denoising)
 
 ## Survey/Review
 
-- A survey on hyperspectral image restoration: from the view of low-rank tensor approximation, Science China Information Sciences 2023, Na Liu et al. [[Page](https://link.springer.com/article/10.1007/s11432-022-3609-4)]
+- [A survey on hyperspectral image restoration: from the view of low-rank tensor approximation](https://link.springer.com/article/10.1007/s11432-022-3609-4), Science China Information Sciences 2023
 
-- Hyperspectral Image Denoising: From Model-Driven, Data-Driven, to Model-Data-Driven, IEEE TNNLS 2023, Qiang Zhang et al. [[Page](https://ieeexplore.ieee.org/abstract/document/10144690)]
+- [Hyperspectral Image Denoising: From Model-Driven, Data-Driven, to Model-Data-Driven](https://ieeexplore.ieee.org/abstract/document/10144690), IEEE TNNLS 2023.
 
-- Deep learning on image denoising: An overview, Neural Networks 2020, Chunwei Tian et al.[[Page]](https://www.sciencedirect.com/science/article/pii/S0893608020302665?casa_token=cCyChtDpA30AAAAA:AArzZXspZ8loLgIbkjWulayI7lPdFajfDmBHdBz2IJzBI5qCmXzIIbT4nGtqt7VpERVZ7p2rE0SN)
+- [HyDe: The First Open-Source, Python-Based, GPU-Accelerated Hyperspectral Denoising Package](https://arxiv.org/abs/2204.06979), arxiv 2022, [[Code]](https://github.com/Helmholtz-AI-Energy/HyDe)
 
-- A Comprehensive Comparison of Multi-Dimensional Image Denoising Methods, arxiv 2020, Zhaoming Kong et al.[[Page]](https://arxiv.org/abs/2011.03462)
+- [Hyperspectral Image Denoising with Realistic Data](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Hyperspectral_Image_Denoising_With_Realistic_Data_ICCV_2021_paper.html), ICCV 2021[[Code]](https://github.com/ColinTaoZhang/HSIDwRD)
 
-- Hyperspectral Image Denoising with Realistic Data, ICCV 2021 , Tao Zhang et al.[[Page]](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Hyperspectral_Image_Denoising_With_Realistic_Data_ICCV_2021_paper.html)[[Code]](https://github.com/ColinTaoZhang/HSIDwRD)
+- [Image Restoration for Remote Sensing: Overview and Toolbox](https://arxiv.org/abs/2107.00557), ArXiv 2021,[[Code]](https://github.com/ImageRestorationToolbox/Hyperspectral-Image-Denoising-)
 
-- Image Restoration for Remote Sensing: Overview and Toolbox, arxiv 2021, Benhood Rasti et al.[[Page]](https://arxiv.org/abs/2107.00557)[[Code]](https://github.com/ImageRestorationToolbox/Hyperspectral-Image-Denoising-)
+- [Deep learning on image denoising: An overview](https://www.sciencedirect.com/science/article/pii/S0893608020302665?casa_token=cCyChtDpA30AAAAA:AArzZXspZ8loLgIbkjWulayI7lPdFajfDmBHdBz2IJzBI5qCmXzIIbT4nGtqt7VpERVZ7p2rE0SN), Neural Networks 2020
 
-- HyDe: The First Open-Source, Python-Based, GPU-Accelerated Hyperspectral Denoising Package, arxiv 2022, Daniel Coquelin et al.[[Page]](https://arxiv.org/abs/2204.06979)[[Code]](https://github.com/Helmholtz-AI-Energy/HyDe)
+- [A Comprehensive Comparison of Multi-Dimensional Image Denoising Methods](https://arxiv.org/abs/2011.03462), ArXiv 2020.
 
   
 
@@ -35,92 +36,88 @@ Tender my sincere appreciate to them for their significant contributions.
 
 #### ========================> 2023 <========================
 
-- Spectral Enhanced Rectangle Transformer for Hyperspectral Image Denoising, CVPR 2023, Miaoyu Li et al. [[Page](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Spectral_Enhanced_Rectangle_Transformer_for_Hyperspectral_Image_Denoising_CVPR_2023_paper.html)] [[Code](https://github.com/MyuLi/SERT)]
-- Hyperspectral image denoising via spectral noise distribution bootstrap, PR 2023, Erting Pan et al. [[Page](https://www.sciencedirect.com/science/article/pii/S0031320323003977)] [[Code](https://github.com/EtPan/N-Net)]
-- HyperQUEEN: Hyperspectral Quantum Deep Network For Image Restoration, TGRS 2023, Chia-Hsiang Lin et al.  [[Page](https://ieeexplore.ieee.org/abstract/document/10121461)]
-- DSTrans: Dual-Stream Transformer for Hyperspectral Image Restoration, WACV 2023, Dabing Yu et al. [[Page](https://openaccess.thecvf.com/content/WACV2023/html/Yu_DSTrans_Dual-Stream_Transformer_for_Hyperspectral_Image_Restoration_WACV_2023_paper.html)] [[Code](https://github.com/yudadabing/Dual-Stream-Transformer-for-Hyperspectral-Image-Restoration)]
-- D2Net: Deep Denoising Network in Frequency Domain for Hyperspectral Image, IEEE/CAS JAS 2023, Erting Pan et al. [[Page](https://ieeexplore.ieee.org/abstract/document/9910374)] [[Code](https://github.com/EtPan/D2Net)]
+- [Spectral Enhanced Rectangle Transformer for Hyperspectral Image Denoising](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Spectral_Enhanced_Rectangle_Transformer_for_Hyperspectral_Image_Denoising_CVPR_2023_paper.html), CVPR 2023,  [[Code](https://github.com/MyuLi/SERT)]
+- [Hyperspectral image denoising via spectral noise distribution bootstrap](https://www.sciencedirect.com/science/article/pii/S0031320323003977), PR 2023 [[Code](https://github.com/EtPan/N-Net)]
+- [HyperQUEEN: Hyperspectral Quantum Deep Network For Image Restoration](https://ieeexplore.ieee.org/abstract/document/10121461), TGRS 2023
+- [DSTrans: Dual-Stream Transformer for Hyperspectral Image Restoration](https://openaccess.thecvf.com/content/WACV2023/html/Yu_DSTrans_Dual-Stream_Transformer_for_Hyperspectral_Image_Restoration_WACV_2023_paper.html), WACV 2023 [[Code](https://github.com/yudadabing/Dual-Stream-Transformer-for-Hyperspectral-Image-Restoration)]
+- [D2Net: Deep Denoising Network in Frequency Domain for Hyperspectral Image](https://ieeexplore.ieee.org/abstract/document/9910374), IEEE/CAS JAS 2023 [[Code](https://github.com/EtPan/D2Net)]
 
 
 #### ========================> 2022 <========================
-- Nonlocal Spatial–Spectral Neural Network for Hyperspectral Image Denoising, TGRS 2022, Guanyiman Fu et al. [[Page](https://ieeexplore.ieee.org/abstract/document/9930129)] [[Code](https://github.com/lronkitty/NSSNN)]
-- Spectrum-Aware and Transferable Architecture Search for Hyperspectral Image Restoration, ECCV 2022, Wei He et al. [[Page](https://link.springer.com/chapter/10.1007/978-3-031-19800-7_2)]
-- Local–Global Feature-Aware Transformer Based Residual Network for Hyperspectral Image Denoising, TGRS 2022, Fengfeng Wang et al.[[Page](https://ieeexplore.ieee.org/abstract/document/9987533)]
-- Hider: A Hyperspectral Image Denoising Transformer With Spatial–Spectral Constraints for Hybrid Noise Removal, TNNLS 2022, Hongyu Chen et al. [[Page]([https://ieeexplore.ieee.org/abstract/document/9932642)]
-- Translution-SNet: A Semisupervised Hyperspectral Image Stripe Noise Removal Based on Transformer and CNN, TGRS 2022, Chengjun Wang, et al. [[Page](https://ieeexplore.ieee.org/abstract/document/9826537)]
-- Hyperspectral image stripe removal network with cross-frequency feature interaction, TGRS 2022, Chengjun Wang et al. [[Page](https://ieeexplore.ieee.org/document/9663279)]
-- DnRCNN: Deep Recurrent Convolutional Neural Network for HSI Destriping, TNNLS 2022 , Juntao Guan et al.[[Page]](https://ieeexplore.ieee.org/document/9697400)
-- SQAD: Spatial-Spectral Quasi-Attention Recurrent Network for Hyperspectral Image Denoising, IEEE TGRS 2022, Erting Pan et.al [[Page](https://ieeexplore.ieee.org/abstract/document/9732909)] [[Code](https://github.com/EtPan/SQAD)]
-- Toward Real Hyperspectral Image Stripe Removal via Direction Constraint Hierarchical Feature Cascade Networks, RS 2022 , Chengjun Wang et al.[[Page]](https://www.mdpi.com/2072-4292/14/3/467)
-- Deep plug-and-play prior for hyperspectral image restoration, Neurocomputing 2022 , Zeqiang Lai  et al.[[Page]](https://www.sciencedirect.com/science/article/pii/S092523122200073X) [https://github.com/Zeqiang-Lai/DPHSIR]
+- [Nonlocal Spatial–Spectral Neural Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9930129), TGRS 2022 [[Code](https://github.com/lronkitty/NSSNN)]
+- [Spectrum-Aware and Transferable Architecture Search for Hyperspectral Image Restoration](https://link.springer.com/chapter/10.1007/978-3-031-19800-7_2), ECCV 2022
+- [Local–Global Feature-Aware Transformer Based Residual Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9987533), TGRS 2022
+- [Hider: A Hyperspectral Image Denoising Transformer With Spatial–Spectral Constraints for Hybrid Noise Removal](https://ieeexplore.ieee.org/abstract/document/9932642), TNNLS 2022
+- [Translution-SNet: A Semisupervised Hyperspectral Image Stripe Noise Removal Based on Transformer and CNN](https://ieeexplore.ieee.org/abstract/document/9826537), TGRS 2022
+- [Hyperspectral image stripe removal network with cross-frequency feature interaction](https://ieeexplore.ieee.org/document/9663279), TGRS 2022
+- [DnRCNN: Deep Recurrent Convolutional Neural Network for HSI Destriping](https://ieeexplore.ieee.org/document/9697400), TNNLS 2022 
+- [SQAD: Spatial-Spectral Quasi-Attention Recurrent Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9732909), IEEE TGRS 2022 [[Code](https://github.com/EtPan/SQAD)]
+- [Toward Real Hyperspectral Image Stripe Removal via Direction Constraint Hierarchical Feature Cascade Networks](https://www.mdpi.com/2072-4292/14/3/467), RS 2022 
+- [Deep plug-and-play prior for hyperspectral image restoration](https://www.sciencedirect.com/science/article/pii/S092523122200073X), Neurocomputing 2022 , Zeqiang Lai  et al.[[Code](https://github.com/Zeqiang-Lai/DPHSIR)]
 
 #### ========================> 2021 <========================
-- Hyperspectral Image Denoising Using a 3-D Attention Denoising Network, TGRS 2021 , Qian Shi et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9318503)
-- Hyperspectral Image Denoising Based On Multi-Stream Denoising Network, IGARSS 2021 , Yan Gao et al.[[Page]](https://arxiv.org/abs/2104.02304)
-- A Self-Supervised Denoising Network for Satellite-Airborne-Ground Hyperspectral Imagery, TGRS 2021 , Xinyu Wang et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9383811)
-- Partial-DNet: A Novel Blind Denoising Model With Noise Intensity Estimation for HSI, TGRS 2021 , Yuan Yuan et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9420707)
-- Deep Spatial-Spectral Global Reasoning Network for Hyperspectral Image Denoising, TGRS 2021 , Xiangyong Cao et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9397278)[[Code]](https://github.com/xiangyongcao/GRN)
-- Attention-Based Octave Network for Hyperspectral Image Denoising, JSTARS 2021 , Ziwen Kan et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9623415)[[Code]](https://github.com/LbzSteven/AODN)
-- SSCAN: A Spatial-spectral Cross Attention Network for Hyperspectral Image Denoising, arxiv 2021 , Zhiqiang Wang et al.[[Page]](https://arxiv.org/abs/2105.10949)
-- Hyperspectral Image Restoration with Self-supervised Learning: A Two-stage Training Approach, TGRS 2021 , Yuntao Qian et al.[[Page]](https://ieeexplore.ieee.org/document/9658507)
-
-#### ========================> 2020 <========================
-- Fast stripe noise removal from hyperspectral image via multi-scale dilated unidirectional convolution, Multimedia Tools and Applications 2020, Ziying Wang et al.[[Page]](https://link.springer.com/article/10.1007/s11042-020-09065-4)[[Code]](https://github.com/doctorwgd/MsDUC)
-- Toward Universal Stripe Removal via Wavelet-Based Deep Convolutional Neural Network, IEEE TGRS 2020, Yi Chang et al.[[Page]](https://ieeexplore.ieee.org/document/8936525)
-- Evolving Deep Convolutional Neural Networks for Hyperspectral Image Denoising, IJCNN 2020 , Yuqiao Liu et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9207509)
-- A novel fusion paradigm for multi-channel image denoising, Information Fusion 2020 , Yue Wu et al.[[Page]](https://www.sciencedirect.com/science/article/pii/S1566253521001433?casa_token=AHqpzylsY5AAAAAA:8ykFr2rYIVmVeL1CcgRKG6KzBTm3MqxohSw7PkngMv6JET7n2LMLoEK82Hg3KgufaGxrQwCqOI5l)
-- [HSI-SDeCNN]:A Single Model CNN for Hyperspectral, IEEE TGRS 2020 , Alessandro Maffei et al.[[Page]](https://ieeexplore.ieee.org/document/8913713)[[Pdf]](https://doi.org/10.1109/TGRS.2019.2952062)[[Code]](https://github.com/mhaut/HSI-SDeCNN)
-- 3-D Quasi-Recurrent Neural Network for Hyperspectral Image Denoising, IEEE TNNLS 2020, Kaixuan Wei et al.[[Page]](https://ieeexplore.ieee.org/document/9046853)[[Code]](https://github.com/Vandermode/QRNN3D)[[Pdf]](https://arxiv.org/pdf/2003.04547)
-- Hyperspectral Image Denoising Using SURE-Based Unsupervised Convolutional Neural Networks, IEEE TGRS 2020 , Han V. Nguyen et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9146687)
-- ADRN: Attention-based deep residual network for hyperspectral image denoising, ICASSP 2020 , Yongsen Zhao et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9054658)[[Pdf]](https://arxiv.org/pdf/2003.01947)
-- A New Multiscale Residual Learning Network for HSI Inconsistent Noise Removal, GRSL 2020 , Yuan Yuan et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9295378)
-- A Comprehensive Comparison of Multi-Dimensional Image Denoising Methods, arxiv 2020 , Zhaoming Kong et al.[[Page]](https://arxiv.org/abs/2011.03462)[[Pdf]](https://arxiv.org/pdf/2011.03462)
+- [Hyperspectral Image Denoising Using a 3-D Attention Denoising Network](https://ieeexplore.ieee.org/abstract/document/9318503), TGRS 2021
+- [Hyperspectral Image Denoising Based On Multi-Stream Denoising Network](https://arxiv.org/abs/2104.02304), IGARSS 2021
+- [A Self-Supervised Denoising Network for Satellite-Airborne-Ground Hyperspectral Imagery](https://ieeexplore.ieee.org/abstract/document/9383811), TGRS 2021
+- [Partial-DNet: A Novel Blind Denoising Model With Noise Intensity Estimation for HSI](https://ieeexplore.ieee.org/abstract/document/9420707), TGRS 2021
+- [Deep Spatial-Spectral Global Reasoning Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9397278), TGRS 2021 [[Code]](https://github.com/xiangyongcao/GRN)
+- [Attention-Based Octave Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9623415), JSTARS 2021 , [[Code]](https://github.com/LbzSteven/AODN)
+- [SSCAN: A Spatial-spectral Cross Attention Network for Hyperspectral Image Denoising](https://arxiv.org/abs/2105.10949), arxiv 2021 
+- [Hyperspectral Image Restoration with Self-supervised Learning: A Two-stage Training Approach](https://ieeexplore.ieee.org/document/9658507), TGRS 2021 
+- [Fast stripe noise removal from hyperspectral image via multi-scale dilated unidirectional convolution](https://link.springer.com/article/10.1007/s11042-020-09065-4), Multimedia Tools and Applications 2020 [[Code]](https://github.com/doctorwgd/MsDUC)
+- [Toward Universal Stripe Removal via Wavelet-Based Deep Convolutional Neural Network](https://ieeexplore.ieee.org/document/8936525), IEEE TGRS 2020 [[Code](https://owuchangyuo.github.io/pub/GRSM.rar)]
+- [Evolving Deep Convolutional Neural Networks for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9207509), IJCNN 2020
+- [A novel fusion paradigm for multi-channel image denoising](https://www.sciencedirect.com/science/article/pii/S1566253521001433?casa_token=AHqpzylsY5AAAAAA:8ykFr2rYIVmVeL1CcgRKG6KzBTm3MqxohSw7PkngMv6JET7n2LMLoEK82Hg3KgufaGxrQwCqOI5l), Information Fusion 2020
+- [HSI-SDeCNN:A Single Model CNN for Hyperspectral](https://ieeexplore.ieee.org/document/8913713), IEEE TGRS 2020 [Code]](https://github.com/mhaut/HSI-SDeCNN)
+- [3-D Quasi-Recurrent Neural Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/document/9046853), IEEE TNNLS 2020 [[Code]](https://github.com/Vandermode/QRNN3D)
+- [Hyperspectral Image Denoising Using SURE-Based Unsupervised Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/9146687), IEEE TGRS 2020
+- [ADRN: Attention-based deep residual network for hyperspectral image denoising](https://ieeexplore.ieee.org/abstract/document/9054658), ICASSP 2020 
+- [A New Multiscale Residual Learning Network for HSI Inconsistent Noise Removal](https://ieeexplore.ieee.org/abstract/document/9295378), GRSL 2020
+- [A Comprehensive Comparison of Multi-Dimensional Image Denoising Methods](https://arxiv.org/abs/2011.03462), arxiv 2020
 
 #### ========================> Before 2020 <========================
-- [Deep Hyperspectral Prior]: Denoising, Inpainting, Super-Resolution, ICCV Workshops 2019, Oleksii Sidorov et al.[[Page]](https://openaccess.thecvf.com/content_ICCVW_2019/html/LCI/Sidorov_Deep_Hyperspectral_Prior_Single-Image_Denoising_Inpainting_Super-Resolution_ICCVW_2019_paper.html)[[Code]](https://github.com/acecreamu/deep-hs-prior) [[Pdf]](https://arxiv.org/pdf/1902.00301)
-- A 3-D Atrous Convolution Neural Network for Hyperspectral Image Denoising, IEEE TGRS 2019, Wei Liu et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/8676115)
-- Hybrid Noise Removal in Hyperspectral Imagery With a Spatial-Spectral Gradient Network, IEEE TGRS 2019, Qiang Zhang et al.[[Page]](https://ieeexplore.ieee.org/document/8734833)[[Code]](https://github.com/WHUQZhang/SSGN)[[Pdf]](https://arxiv.org/pdf/1810.00495)
-- Deep Spatial-spectral Representation Learning for Hyperspectral Image Denoising, IEEE TCI 2019, Weisheng Dong et al. [[Page]](https://ieeexplore.ieee.org/document/8693549) [[Code]](https://see.xidian.edu.cn/faculty/wsdong/Code_release/DENOISE_NG_ST.tar.gz)
-- Zero-Shot Hyperspectral Image Denoising With Separable Image Prior, ICCV Workshops 2019, Ryuji Imamura et al.[[Page]](https://openaccess.thecvf.com/content_ICCVW_2019/html/MDALC/Imamura_Zero-Shot_Hyperspectral_Image_Denoising_With_Separable_Image_Prior_ICCVW_2019_paper.html)
-- Source:Self-supervised Hyperspectral Image Restoration using Separable Image Prior, arxiv 2019, Ryuji Imamura et al.[[Page]](https://arxiv.org/abs/1907.00651)  
-- DNN-based Hyperspectral Image Denoising with Spatio-spectral Pre-training, IEEE GCCE 2019, Tatsuki Itasaka et al.[[Page]](https://ieeexplore.ieee.org/document/9015235)
-- Efficient Convolutional Neural Network for Spectral-Spatial Hyperspectral Denoising, WHISPERS 2019, Alessandro Maffei et al.[[Page]](https://ieeexplore.ieee.org/document/8921236)
+- [Deep Hyperspectral Prior: Denoising, Inpainting, Super-Resolution](https://openaccess.thecvf.com/content_ICCVW_2019/html/LCI/Sidorov_Deep_Hyperspectral_Prior_Single-Image_Denoising_Inpainting_Super-Resolution_ICCVW_2019_paper.html), ICCV Workshops 2019 [[Code]](https://github.com/acecreamu/deep-hs-prior)
+- [A 3-D Atrous Convolution Neural Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/8676115), IEEE TGRS 2019
+- [Hybrid Noise Removal in Hyperspectral Imagery With a Spatial-Spectral Gradient Network](https://ieeexplore.ieee.org/document/8734833), IEEE TGRS 2019 [[Code]](https://github.com/WHUQZhang/SSGN)
+- [Deep Spatial-spectral Representation Learning for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/document/8693549), IEEE TCI 2019, [[Code]](https://see.xidian.edu.cn/faculty/wsdong/Code_release/DENOISE_NG_ST.tar.gz)
+- [Zero-Shot Hyperspectral Image Denoising With Separable Image Prior](https://openaccess.thecvf.com/content_ICCVW_2019/html/MDALC/Imamura_Zero-Shot_Hyperspectral_Image_Denoising_With_Separable_Image_Prior_ICCVW_2019_paper.html), ICCV Workshops 2019
+- [Source:Self-supervised Hyperspectral Image Restoration using Separable Image Prior](https://arxiv.org/abs/1907.00651), arxiv 2019
+- [DNN-based Hyperspectral Image Denoising with Spatio-spectral Pre-training](https://ieeexplore.ieee.org/document/9015235), IEEE GCCE 2019
+- [Efficient Convolutional Neural Network for Spectral-Spatial Hyperspectral Denoising](https://ieeexplore.ieee.org/document/8921236), WHISPERS 2019
 
-- [HSI-DeNet]: Hyperspectral Image Restoration via Convolutional Neural Network, IEEE TGRS 2018, Yi Chang et al.[[Page]](https://ieeexplore.ieee.org/document/8435923)[[Web]](http://www.escience.cn/people/changyi/index.html)[[Pdf]](http://www.escience.cn/system/download/100951)
-- [HSID-CNN]:Hyperspectral Image Denoising Employing a Spatial-Spectral Deep Residual Convolutional Neural Network, IEEE TGRS 2018, Qiangqiang Yuan et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/8454887)[[Code]](https://github.com/WHUQZhang/HSID-CNN)
-- Hyperspectral Imagery Denoising by Deep Learning With Trainable Nonlinearity Function, GRSL 2017, Weiying Xie et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/8030333)
+- [HSI-DeNet: Hyperspectral Image Restoration via Convolutional Neural Network](https://ieeexplore.ieee.org/document/8435923), IEEE TGRS 2018
+- [HSID-CNN:Hyperspectral Image Denoising Employing a Spatial-Spectral Deep Residual Convolutional Neural Network](https://ieeexplore.ieee.org/abstract/document/8454887), IEEE TGRS 2018 [[Code]](https://github.com/WHUQZhang/HSID-CNN)
+- [Hyperspectral Imagery Denoising by Deep Learning With Trainable Nonlinearity Function](https://ieeexplore.ieee.org/abstract/document/8030333), GRSL 2017
 
 ## Hybrid models
 #### ========================> 2021 <========================
-- Hyperspectral Mixed Noise Removal via Spatial-Spectral Constrained Unsupervised Deep Image Prior, JSTARS 2021 , Yi-Si Luo et al.[[Page]](https://ieeexplore.ieee.org/document/9534671)
-- Hyperspectral Image Denoising via Clustering-Based Latent Variable in Variational Bayesian Framework, TGRS 2021, Peyman Azimpour et al.[[Page]](https://ieeexplore.ieee.org/document/9386019)
-- Hyperspectral Denoising Via Global Tensor Ring Decomposition and Local Unsupervised Deep Image Prior, IGARSS 2021 , Jian-Li Wang et al.[[Page]](https://ieeexplore.ieee.org/document/9555068)
-- Learning a Model-Based Deep Hyperspectral Denoiser from a Single Noisy Hyperspectral Image, IGARSS 2021 , Guanyiman Fu et al.[[Page]](https://ieeexplore.ieee.org/document/9553257)
-- Hyperspectral Denoising Using Unsupervised Disentangled Spatiospectral Deep Priors, TGRS 2021 , Yu-Chun Miao et al.[[Page]](https://ieeexplore.ieee.org/document/9524362)
-- LR-Net: Low-Rank Spatial-Spectral Network for Hyperspectral Image Denoising, TIP 2021 , Hongyan Zhang et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9580717)
-- A Trainable Spectral-Spatial Sparse Coding Model for Hyperspectral Image Restoration, NeurIPS 2021 , Theo Bodrito et al.[[Page]](https://proceedings.neurips.cc/paper/2021/hash/2b515e2bdd63b7f034269ad747c93a42-Abstract.html)[[Code]](https://github.com/inria-thoth/T3SC)
-- MAC-Net: Model Aided Nonlocal Neural Network for Hyperspectral Image Denoising, TGRS 2021 , Fengchao Xiong et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9631264)
-- Hyperspectral Image Mixed Noise Removal Using Subspace Representation and Deep CNN Image Prior, RS 2021 , Lina Zhuang et al.[[Page]](https://www.mdpi.com/2072-4292/13/20/4098)
-- Hyperspectral Image Denoising via Low-Rank Representation and CNN Denoiser, JSTARS 2021 , Hezhi Sun et al.[[Page]](https://ieeexplore.ieee.org/document/9664348)
-- FastHyMix: Fast and Parameter-Free Hyperspectral Image Mixed Noise Removal, TNNLS 2021 , Lina Zhuang et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9552462)[[Code]](https://github.com/LinaZhuang/HSI-MixedNoiseRemoval-FastHyMix)
+- [Hyperspectral Mixed Noise Removal via Spatial-Spectral Constrained Unsupervised Deep Image Prior](https://ieeexplore.ieee.org/document/9534671), JSTARS 2021
+- [Hyperspectral Image Denoising via Clustering-Based Latent Variable in Variational Bayesian Framework](https://ieeexplore.ieee.org/document/9386019), TGRS 2021
+- [Hyperspectral Denoising Via Global Tensor Ring Decomposition and Local Unsupervised Deep Image Prior](https://ieeexplore.ieee.org/document/9555068), IGARSS 2021
+- [Learning a Model-Based Deep Hyperspectral Denoiser from a Single Noisy Hyperspectral Image](https://ieeexplore.ieee.org/document/9553257), IGARSS 2021
+- [Hyperspectral Denoising Using Unsupervised Disentangled Spatiospectral Deep Priors](https://ieeexplore.ieee.org/document/9524362), TGRS 2021
+- [LR-Net: Low-Rank Spatial-Spectral Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9580717)), TIP 2021 
+- [A Trainable Spectral-Spatial Sparse Coding Model for Hyperspectral Image Restoration](https://proceedings.neurips.cc/paper/2021/hash/2b515e2bdd63b7f034269ad747c93a42-Abstract.html), NeurIPS 2021 [[Code]](https://github.com/inria-thoth/T3SC)
+- [MAC-Net: Model Aided Nonlocal Neural Network for Hyperspectral Image Denoising](https://ieeexplore.ieee.org/abstract/document/9631264), TGRS 2021 
+- [Hyperspectral Image Mixed Noise Removal Using Subspace Representation and Deep CNN Image Prior](https://www.mdpi.com/2072-4292/13/20/4098), RS 2021
+- [Hyperspectral Image Denoising via Low-Rank Representation and CNN Denoiser](https://ieeexplore.ieee.org/document/9664348), JSTARS 2021
+- [FastHyMix: Fast and Parameter-Free Hyperspectral Image Mixed Noise Removal](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300710), TNNLS 2021 [[Code]](https://github.com/LinaZhuang/HSI-MixedNoiseRemoval-FastHyMix)
 
 #### ========================> 2020 <========================
-- Hyperspectral image restoration via CNN denoiser prior regularized low-rank tensor recovery, CVIU 2020, H. Zeng et al..[[Page]](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300710) 
-- Deep spatio-spectral Bayesian posterior for hyperspectral image non-i.i.d. noise removal, ISPRS JPRS 2020, Qiang Zhang et al.[[Page]](https://www.sciencedirect.com/science/article/pii/S0924271620301076?casa_token=oGipxO4oaiwAAAAA:nTJHrpi8KGaHq4gl7d2MsLPmWd6mebc2aLAVJY3xFodl8fpp1PIiVBiEabD93st_VH_MdmZP5rM)[[Pdf]](https://www.researchgate.net/profile/Qiang_Zhang204/publication/340988173_Deep_spatio-spectral_Bayesian_posterior_for_hyperspectral_image_non-iid_noise_removal/links/5eaa25f6a6fdcc70509afdfd/Deep-spatio-spectral-Bayesian-posterior-for-hyperspectral-image-non-iid-noise-removal.pdf)
-- SMDS-Net: Model Guided Spectral-Spatial Network for Hyperspectral Image Denoising, arXiv 2020 , Fengchao Xiong et al.[[Page]](https://arxiv.org/abs/2012.01829)
-- Unsupervised Hyperspectral Mixed Noise Removal Via Spatial-Spectral Constrained Deep Image Prior, arxiv 2020, Yi-Si Luo et al.[[Page]](https://arxiv.org/abs/2008.09753)
+- [Hyperspectral image restoration via CNN denoiser prior regularized low-rank tensor recovery](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300710), CVIU 2020, H. Zeng et al..[[Page]]() 
+- [Deep spatio-spectral Bayesian posterior for hyperspectral image non-i.i.d. noise removal](https://www.sciencedirect.com/science/article/pii/S0924271620301076?casa_token=oGipxO4oaiwAAAAA:nTJHrpi8KGaHq4gl7d2MsLPmWd6mebc2aLAVJY3xFodl8fpp1PIiVBiEabD93st_VH_MdmZP5rM), ISPRS JPRS 2020
+- [SMDS-Net: Model Guided Spectral-Spatial Network for Hyperspectral Image Denoising](https://arxiv.org/abs/2012.01829), arXiv 2020 
+- [Unsupervised Hyperspectral Mixed Noise Removal Via Spatial-Spectral Constrained Deep Image Prior](https://arxiv.org/abs/2008.09753), arxiv 2020
 #### ========================> Before 2020 <========================
-- Hyperspectral Image Denoising via Matrix Factorization and Deep Prior Regularization, IEEE TIP 2019, Baihong Lin et al[[Page]](https://ieeexplore.ieee.org/document/8767025)
-
-
+- [Hyperspectral Image Denoising via Matrix Factorization and Deep Prior Regularization](https://ieeexplore.ieee.org/document/8767025), IEEE TIP 2019
 
 
 ## Other tasks
-- An End-to-End Framework for Joint Denoising and Classification of Hyperspectral Images, TNNLS 2023, Xian Li et al. [[Page](https://ieeexplore.ieee.org/abstract/document/10101853)]
-- HyperMixNet: Hyperspectral Image Reconstruction With Deep Mixed Network From a Snapshot Measurement, ICCV Workshops 2021 , Kouhei Yorimoto et al.[[Page]](https://openaccess.thecvf.com/content/ICCV2021W/PBDL/html/Yorimoto_HyperMixNet_Hyperspectral_Image_Reconstruction_With_Deep_Mixed_Network_From_a_ICCVW_2021_paper.html)
-- HSI-IPNet: Hyperspectral Imagery Inpainting by Deep Learning With Adaptive Spectral Extraction, IEEE J-STARS 2020, Rong Wong et al.[[Page]](https://ieeexplore.ieee.org/abstract/document/9151178)[[Pdf]](https://ieeexplore.ieee.org/iel7/4609443/8994817/09151178.pdf)
-- Learning Spectral-Spatial Prior Via 3DDNCNN for Hyperspectral Image Deconvolution, ICASSP 2020, Xiuheng Wang et al.[[Page]](https://ieeexplore.ieee.org/document/9054539)
-- Hyperspectral Image Reconstruction Using a Deep Spatial-Spectral Prior, CVPR 2019 , Lizhi Wang et al.[[Page]](https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Hyperspectral_Image_Reconstruction_Using_a_Deep_Spatial-Spectral_Prior_CVPR_2019_paper.html)[[Pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Hyperspectral_Image_Reconstruction_Using_a_Deep_Spatial-Spectral_Prior_CVPR_2019_paper.pdf)
+- [An End-to-End Framework for Joint Denoising and Classification of Hyperspectral Images](https://ieeexplore.ieee.org/abstract/document/10101853), TNNLS 2023
+- [HyperMixNet: Hyperspectral Image Reconstruction With Deep Mixed Network From a Snapshot Measurement,](https://openaccess.thecvf.com/content/ICCV2021W/PBDL/html/Yorimoto_HyperMixNet_Hyperspectral_Image_Reconstruction_With_Deep_Mixed_Network_From_a_ICCVW_2021_paper.html) ICCV Workshops 2021 
+- [HSI-IPNet: Hyperspectral Imagery Inpainting by Deep Learning With Adaptive Spectral Extraction](https://ieeexplore.ieee.org/abstract/document/9151178), IEEE J-STARS 2020
+- [Learning Spectral-Spatial Prior Via 3DDNCNN for Hyperspectral Image Deconvolution](https://ieeexplore.ieee.org/document/9054539), ICASSP 2020, 
+- [Hyperspectral Image Reconstruction Using a Deep Spatial-Spectral Prior](https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Hyperspectral_Image_Reconstruction_Using_a_Deep_Spatial-Spectral_Prior_CVPR_2019_paper.html), CVPR 2019 
 
 
 
@@ -135,6 +132,7 @@ Tender my sincere appreciate to them for their significant contributions.
 - [EO-1 Hyperion Data](https://lta.cr.usgs.gov/ALI)
 - [NUS dataset](https://sites.google.com/site/hyperspectralcolorimaging/dataset/general-scenes)
 - [NTIRE18 dataset](http://www.vision.ee.ethz.ch/ntire18/)
+- [GF5-Data](http://hipag.whu.edu.cn/resourcesdownload.html)
 
 
 ## Image Quality Measurement 
